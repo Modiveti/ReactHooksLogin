@@ -1,0 +1,13 @@
+.app_container {
+  display: flex;
+  justify-content: flex-start;
+  .sidebar_container {
+    display: flex;
+    height: 100vh;
+  }
+  .container_body {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+  }
+}

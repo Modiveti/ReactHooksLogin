@@ -1,0 +1,73 @@
+@import '../../global-css/variables.scss';
+
+.signin_main {
+  // border: 1px solid #c1c1c1;
+
+  .signIn_page {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    margin: 25% auto;
+    position: relative;
+    @media (min-width: $gog-screen-md) {
+      width: 500px;
+    }
+    @media (min-width: $gog-screen-lg) {
+      width: 500px;
+    }
+    .signIn_page_form {
+      //border:1px solid #c1c1c1;
+      padding: 20px;
+      position: relative;
+      .terms_conditions {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 10px 0px;
+      }
+      .submit_button {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 20px;
+      }
+
+      #button-2 {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+      #button-2 button {
+        position: relative;
+        //transition: all 0.35s ease-Out;
+        border: 2px solid #0b582d;
+        width: 100%;
+        color: aliceblue;
+        background: linear-gradient(-30deg, #520222 50%, #251a1a 50%);
+      }
+
+      .error_info {
+        color: $color-red-primary;
+        font-size: 14px;
+      }
+      .form_status_error {
+        margin: 0px 0px 10px 0px;
+      }
+    }
+    .account_buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 500px;
+      button {
+        border: none;
+        color: $color-text-primary;
+        padding: 5px;
+      }
+    }
+  }
+  .next_button {
+    width: 100px;
+  }
+}

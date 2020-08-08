@@ -1,0 +1,145 @@
+// GOG breakpoints
+
+// from  mini tablets
+$gog-screen-md: 768px;
+
+// from Tablet Pro to large tablets
+$gog-screen-lg: 1024px;
+
+// from desktops to large desktops
+$gog-screen-xl: 1200px;
+
+// Extra Small Phones
+$screen-xsm-min: 576px;
+
+// Small phones
+$screen-sm-min: 768px;
+
+// Small tablets (portrait view)
+$screen-md-min: 992px;
+
+// small desktops
+$screen-lg-min: 1024px;
+
+// Large desktops
+$screen-xl-min: 1200px;
+
+// colors   primary, secondary, quaternary, quinary, senary, septenary, octonary, nonary, and denary
+$light-mode-text-color-primary: #091e3f;
+$light-mode-text-color-secondary: #606469;
+
+// $dark-mode-bg-color: #1b2938;
+$dark-mode-bg-color: #192734;
+
+$dark-mode-color-header: #233141;
+$drak-mode-color-footer: #233141;
+
+$drak-mode-text-color-primary: #ffffff;
+$drak-mode-text-color-secondary: #899bac;
+$drak-mode-text-color-tertiary: #899bac;
+
+$color-white-primary: #ffffff;
+$color-white-secondary: #feffff;
+$color-white-tertiary: #f5f7fb;
+
+$color-text-primary: #373f46;
+$color-text-secondary: #6a7279;
+$color-text-tertiary: #9098a0;
+$color-text-quaternary: #c7cacd;
+$color-text-quinary: #555;
+
+$color-cyan-primary: #fff1e3;
+
+$color-black-primary: #000000;
+$color-black-secondary: #111111;
+
+$color-brown-primary: #563800;
+
+$color-maroon-primary: #c9215e;
+$color-maroon-secondary: #bd1e2d;
+$color-maroon-tertiary: #ed1651;
+
+$color-pink-primary: #ff71bd;
+
+$color-violet-primary: #d070ff;
+$color-violet-secondary: #c9b5de;
+$color-blue-primary: #1aa2eb; // #31ABED 00a3e0
+$color-blue-secondary: #2da2e1;
+$color-blue-tertiary: #31abed;
+$color-blue-quaternary: #0291dd;
+$color-blue-quinary: #1e466f;
+$color-blue-senary: #0291dd;
+$color-blue-septenary: #0089d1; // for on hover usages
+$color-blue-octonary: #25aae2;
+
+$color-cerise-primary: #4f0e24;
+$color-cerise-secondary: #4b0317;
+
+$color-grey-primary: #a6a8ab;
+$color-grey-secondary: #9b9b9b;
+$color-grey-tertiary: #818286;
+$color-grey-quaternary: #bfbfbf;
+$color-grey-quinary: #e5e3de;
+
+$color-dark-blue-primary: #0c4ca3;
+$color-dark-blue-secondary: #041b47;
+
+$color-sky-blue-primary: #03e5ff;
+$color-light-blue-primary: #9addff;
+
+$color-light-yellow-primary: #ffffb2;
+
+$color-purple-primary: #886cc4;
+$color-purple-secondary: #362264;
+
+$color-black-primary: #000000;
+$color-black-secondary: #111;
+$color-black-tertiary: #253143;
+
+$color-grey-primary: #666;
+$color-grey-secondary: #333;
+$color-grey-tertiary: #242729;
+$color-grey-quaternary: #989090;
+$color-grey-quinary: #6d7783;
+
+$color-yellow-primary: #fff45b;
+
+$color-orange-primary: #f58220;
+$color-orange-secondary: #e89f12;
+$color-orange-tertiary: #ffb72c;
+
+$color-red-primary: #ff0000;
+
+$color-green-primary: #24da19;
+$color-green-secondary: #25b086;
+$color-green-tertiary: darkseagreen;
+$color-green-quaternary: #a6ff58;
+
+$color-border-primary: #3b4656;
+$color-border-secondary: #ced4dab0;
+
+$color-footer-primary: #373a40;
+$color-footer-secondary: #373f46;
+$color-footer-tertiary: #434a51;
+$color-footer-quaternary: #23273d;
+$color-footer-quinary: #2f334c;
+$color-footer-octane: #848d95;
+
+$color-heading-blue: darkblue;
+
+$color-background-alice: aliceblue;
+
+$color-background-bisque: bisque;
+$color-carsoul-wheat: wheat;
+$color-carsoul-antiquewhite: antiquewhite;
+
+$color-orange-primary: #f1a81a;
+$color-orange-secondary: #e0a905;
+
+$color-background-primary: #37536c;
+
+$color-blue-green-primary: #18acb6;
+
+$header-background-color: #1b2938;
+
+$color-border-secondary: rgba(24, 23, 23, 0.16) 2px 4px 15px 10px;

@@ -1,0 +1,16 @@
+@import '../../global-css/variables.scss';
+
+.bi-chevron-down {
+  margin-left: 5px;
+}
+// .bi-chevron-down:hover {
+//   transform: rotateZ(180deg);
+//   transition: all 0.2s ease-in-out;
+// }
+
+.nav-item:hover .bi-chevron-down {
+  @media (min-width: $gog-screen-lg) {
+    transform: rotateZ(180deg);
+    transition: all 0.2s ease-in-out;
+  }
+}

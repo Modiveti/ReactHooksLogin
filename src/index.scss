@@ -1,0 +1,130 @@
+@import './global-css/variables.scss';
+@import './global-css/override_bootstrap.scss';
+
+.gog_page_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  margin: 0 auto;
+  @media (min-width: $gog-screen-md) {
+    max-width: 768px;
+  }
+
+  @media (min-width: $gog-screen-lg) {
+    flex-direction: column;
+    max-width: 1024px;
+  }
+
+  @media (min-width: $gog-screen-xl) {
+    flex-direction: column;
+    max-width: 1200px;
+  }
+
+  .gog_page_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    @media (min-width: $gog-screen-lg) {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+  }
+}
+
+.gog_col_md_1 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+}
+
+.gog_col_md_2 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 16.333333%;
+    max-width: 16.333333%;
+  }
+}
+
+.gog_col_md_3 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.gog_col_md_4 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+.gog_col_md_5 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+.gog_col_md_6 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.gog_col_md_8 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+.gog_col_md_9 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+.gog_col_md_10 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+}
+
+.gog_col_md_11 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media (min-width: $gog-screen-lg) {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+}
+
+.validation_error {
+  font-size: 14px;
+  margin-top: 5px;
+  color: $color-red-primary;
+}
